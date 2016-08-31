@@ -52,7 +52,7 @@ ggplot(data = NDF, aes(x = Gender, y = Age, fill = Gender)) + geom_boxplot() +
   scale_fill_manual(values = c("blue", "pink"))
 ```
 
-Density plots:
+# Density plots: {-}
 
 ```{r}
 ggplot(data = NDF, aes(x = Age, fill = Gender)) + 
@@ -61,7 +61,7 @@ ggplot(data = NDF, aes(x = Age, fill = Gender)) +
   scale_fill_manual(values = c("blue", "pink"))
 ```
 
-Summary information:
+# Summary information: {-}
 
 ```{r}
 library(dplyr)

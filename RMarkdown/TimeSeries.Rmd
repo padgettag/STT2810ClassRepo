@@ -3,9 +3,10 @@ title: "Time Series"
 author: "Alan Arnholt"
 date: "8/30/2016"
 output:
+  html_document: default
   pdf_document:
     keep_tex: yes
-  html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
